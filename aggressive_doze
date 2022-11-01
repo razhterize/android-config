@@ -1,0 +1,20 @@
+#!/system/bin/sh
+device_config put device_idle light_after_inactive_to 30000
+device_config put device_idle light_pre_idle_to 20000
+device_config put device_idle light_idle_to 30000
+device_config put device_idle light_idle_factor 2
+device_config put device_idle light_max_idle_to 300000
+device_config put device_idle light_idle_maintenance_min_budget 30000
+device_config put device_idle light_idle_maintenance_max_budget 180000
+device_config put device_idle inactive_to 10000
+device_config put device_idle sensing_to 0
+device_config put device_idle locating_to 0
+device_config put device_idle motion_inactive_to 0
+device_config put device_idle idle_after_inactive_to 300000
+device_config put device_idle idle_pending_to 180000
+device_config put device_idle max_idle_pending_to 90000
+device_config put device_idle idle_pending_factor 2
+device_config put device_idle idle_to 60000
+device_config put device_idle max_idle_to 21600000
+device_config put device_idle idle_factor 2
+device_config put device_idle wait_for_unlock true
